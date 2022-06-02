@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+
+html{
+    font-size: 10px;
+}
+body{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    height: 100vh;
+}
+#clock{max-width: 600px;}
+@media only screen and (max-width:700px){
+    body {font-size: 1.8rem;}
+}
+@media only screen and (max-widht:300px) {
+    body {font-size: 1.6rem;}
+}
